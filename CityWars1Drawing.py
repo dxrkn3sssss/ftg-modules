@@ -25,5 +25,5 @@ class CityWars1DrawingMod(loader.Module):
             if status:
                 if message.chat_id == -1001101812774:
                     click = (await message.click(0)).message
-                    await message.client.send_message(me, f"Словлен подарок в City Wars News")
+                    await message.client.send_message(me, f"Словлен подарок в True Mafia News:\n\n{click}")
         except: pass
