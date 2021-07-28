@@ -152,7 +152,7 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> наказал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "кря":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> хуякнул(-а) кря в личико <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "дать котик":
+                    if message.text.lower() == "дать котика":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) котика <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "дать банан":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) банан <a href=tg://user?id={user.id}>{user.first_name}</a>")
@@ -165,7 +165,7 @@ class RPMod(loader.Module):
                     if message.text.lower() == "укусить за хуй":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> укусил(-а) за хуй <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "дать по жопе":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> укусил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) по жопе <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "скинуть нюдсы":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> скинул(-а) нюдсы <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "дать конфету":
