@@ -21,7 +21,7 @@ class RPMod(loader.Module):
 
     async def rplistcmd(self, message):
         """Используй: .rplist чтобы посмотреть список рп команд."""
-        await message.edit("<b>• чмок\n•рп обнять\n• кляп\n• выебать как тварь\n• кусь\n• обнять\n• обнять2\n• обнять для иры\n• шлеп\n• убить\n• выебать\n• связать\n• ударить\n• уебать\n• отсосать\n• отлизать\n• задушить\n• украсть"
+        await message.edit("<b>• чмок\n*рп обнять\n*спать\n• кляп\n• выебать как тварь\n• кусь\n• обнять\n• обнять2\n• обнять для иры\n• шлеп\n• убить\n• выебать\n• связать\n• ударить\n• уебать\n• отсосать\n• отлизать\n• задушить\n• украсть"
                            "\n• погладить\n• притянуть\n• изнасиловать\n• отпороть\n• наебать\n• поцеловать\n• накурить\n• набухать\n• засосать\n• утопить\n• расстрелять\n• прижать\n• понюхать\n• отдаться\n• покормить\n• кастрировать\n• пнуть\n• пожелать спокойной ночи\n• лизнуть\n• послать нахуй\n• ущипнуть\n• дать чапалаха\n• полюбить\n• признаться в любви\n• трахнуть\n• заебать\n• доебаться\n• дать бан\n• сделать шалавой</b>")
 
     async def watcher(self, message):
@@ -36,6 +36,8 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> чмокнул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "рп обнять":
                         await message.edit(f"<code> *нежно прижал головой к груди, целуя в макушку* </code> ")
+                    if message.text.lower() == "спать":
+                        await message.edit(f"<code> *лег рядом, и накрыв легким одеялком, медленно обнял со спины* </code> ")
                     if message.text.lower() == "кляп":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <code> связал, засунув кляп в рот, после чего отлупил плеткой </code> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "выебать как тварь":
