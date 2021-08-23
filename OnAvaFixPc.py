@@ -30,10 +30,10 @@ class OnAvaMod(loader.Module):
             await message.edit("Устанавливаем аву...")
             await message.client(functions.photos.UploadProfilePhotoRequest(video=await message.client.upload_file("gifava.mp4"), video_start_ts=0.0))
             await message.edit("Ава установлена.")
-            os.system("del -rf ava.mp4 gifava.mp4 gifavaa.mp4 tgs.tgs tgs.gif")
+            os.system("del ava.mp4 gifava.mp4 gifavaa.mp4 tgs.tgs tgs.gif")
         except:
             await message.edit("Произошла непредвиденная ошибка.")
-            os.system("del -rf ava.mp4 gifava.mp4 gifavaa.mp4 tgs.tgs tgs.gif")
+            os.system("del ava.mp4 gifava.mp4 gifavaa.mp4 tgs.tgs tgs.gif")
             return
 
 
@@ -57,9 +57,9 @@ class OnAvaMod(loader.Module):
                     await message.client.send_file(message.to_id, "tgs.gif", reply_to=reply.id)
                 else: return await message.edit("Этот файл не поддерживается.")
                 await message.delete()
-                os.system("del -rf inputfile.mp4 outputfile.mp4 tgs.tgs tgs.gif") 
+                os.system("del inputfile.mp4 outputfile.mp4 tgs.tgs tgs.gif") 
             else: return await message.edit("Нет реплая на видео/гиф/стикр.")
         except:
             await message.edit("Произошла непредвиденная ошибка.")
-            os.system("del -rf inputfile.mp4 outputfile.mp4 tgs.tgs tgs.gif")  
+            os.system("del inputfile.mp4 outputfile.mp4 tgs.tgs tgs.gif")  
             return
