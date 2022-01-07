@@ -21,7 +21,7 @@ class RPMod(loader.Module):
 
     async def rplistcmd(self, message):
         """Используй: .rplist чтобы посмотреть список рп команд."""
-        await message.edit("<b>• чмок\n*рп обнять\n*спать\n•м..\n*ня<3\n• побить\n• кляп\n• выебать как тварь\n• кусь\n• обнять\n• обнять2\n• обнять для иры\n• шлеп\n• убить\n• выебать\n• связать\n• ударить\n• уебать\n• отсосать\n• отлизать\n• задушить\n• украсть"
+        await message.edit("<b>• чмок\n*рп обнять\n*спать\n•м..\n*ня<3\n• побить\n• кляп\n• выебать как тварь\n• кусь\n• обнять\n• обнять2\n• ивачка\n• шлеп\n• убить\n• выебать\n• связать\n• ударить\n• уебать\n• отсосать\n• отлизать\n• задушить\n• украсть"
                            "\n• погладить\n• притянуть\n• изнасиловать\n• отпороть\n• наебать\n• поцеловать\n• накурить\n• набухать\n• засосать\n• утопить\n• расстрелять\n• прижать\n• понюхать\n• отдаться\n• покормить\n• кастрировать\n• пнуть\n• пожелать спокойной ночи\n• лизнуть\n• послать нахуй\n• ущипнуть\n• дать чапалаха\n• полюбить\n• признаться в любви\n• трахнуть\n• заебать\n• доебаться\n• дать бан\n• сделать шалавой\n• кыш \n• дать \n• тьмок \n• споки \n• лав \n• мур \n• поцеловать \n• прижать \n• пнуть \n• рассенган\n• наказать\n• кря\n• дать котика\n• дать банан\n• сделать хохлом\n• подарить жёлтые тюльпаны\n• укусить\n• укусить за хуй\n• дать по жопе\n• скинуть нюдсы\n• дать конфету\n• уложить спать\n• разбудить\n• поворчать как бабка на\n• забрать в село на лето\n• купить мороженное</b>")
 
     async def watcher(self, message):
@@ -52,8 +52,8 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> кусьнул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "обнять":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <code> обнял(-а) </code> <a href=tg://user?id={user.id}>{user.first_name}</code> </a>")
-                    if message.text.lower() == "обнять для иры":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> обнял(-а) <a href=tg://user?id={user.id}>{user.first_name}</code> </a>")
+                    if message.text.lower() == "ивачка":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <b> Похмелдырда бошка бадум раскалында. Сушняк кошке рот накакалым. Сердце тыдын тыдын тыдын тыдын. Что с утра помоганда. Представляндр иновациндын средстволар от пахмелды. Шипучий хаш </b> <a href=tg://user?id={user.id}>{user.first_name}</code> </a>")
                     if message.text.lower() == "обнять2":
                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <code> крепко обнял(-а), осторожно поглаживая по плечу </code> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "шлеп":
