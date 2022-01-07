@@ -53,7 +53,7 @@ class RPMod(loader.Module):
                     if message.text.lower() == "обнять":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <code> обнял(-а) </code> <a href=tg://user?id={user.id}>{user.first_name}</code> </a>")
                     if message.text.lower() == "ивачка":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <b> Похмелдырда бошка бадум раскалында. Сушняк кошке рот накакалым. Сердце тыдын тыдын тыдын тыдын. Что с утра помоганда. Представляндр иновациндын средстволар от пахмелды. Шипучий хаш </b> <a href=tg://user?id={user.id}>{user.first_name}</code> </a>")
+                        await message.edit(f"<b> Похмелдырда бошка бадум раскалында. Сушняк кошке рот накакалым. Сердце тыдын тыдын тыдын тыдын. Что с утра помоганда. Представляндр иновациндын средстволар от пахмелды. Шипучий хаш </b> ")
                     if message.text.lower() == "обнять2":
                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <code> крепко обнял(-а), осторожно поглаживая по плечу </code> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "шлеп":
